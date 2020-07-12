@@ -1,0 +1,50 @@
+0x000:                      | .pos 0x0
+0x000: 10                   | nop
+0x001: 6300                 | xorq %rax, %rax
+0x003: 6311                 | xorq %rcx, %rcx
+0x005: 6322                 | xorq %rdx, %rdx
+0x007: 6333                 | xorq %rbx, %rbx
+0x009: 6344                 | xorq %rsp, %rsp
+0x00b: 6355                 | xorq %rbp, %rbp
+0x00d: 6366                 | xorq %rsi, %rsi
+0x00f: 6377                 | xorq %rdi, %rdi
+0x011: 6388                 | xorq %r8, %r8
+0x013: 6399                 | xorq %r9, %r9
+0x015: 63aa                 | xorq %r10, %r10
+0x017: 63bb                 | xorq %r11, %r11
+0x019: 63cc                 | xorq %r12, %r12
+0x01b: 63dd                 | xorq %r13, %r13
+0x01d: 63ee                 | xorq %r14, %r14
+0x01f: 30f00100000000000000 | irmovq 1, %rax
+0x029: 10                   | nop
+0x02a: 10                   | nop
+0x02b: 10                   | nop
+0x02c: 6001                 | addq %rax, %rcx
+0x02e: 6001                 | addq %rax, %rcx
+0x030: 6012                 | addq %rcx, %rdx
+0x032: 6012                 | addq %rcx, %rdx
+0x034: 6023                 | addq %rdx, %rbx
+0x036: 6023                 | addq %rdx, %rbx
+0x038: 6034                 | addq %rbx, %rsp
+0x03a: 6034                 | addq %rbx, %rsp
+0x03c: 6045                 | addq %rsp, %rbp
+0x03e: 6045                 | addq %rsp, %rbp
+0x040: 6056                 | addq %rbp, %rsi
+0x042: 6056                 | addq %rbp, %rsi
+0x044: 6067                 | addq %rsi, %rdi
+0x046: 6067                 | addq %rsi, %rdi
+0x048: 6078                 | addq %rdi, %r8
+0x04a: 6078                 | addq %rdi, %r8
+0x04c: 6089                 | addq %r8, %r9
+0x04e: 6089                 | addq %r8, %r9
+0x050: 609a                 | addq %r9, %r10
+0x052: 609a                 | addq %r9, %r10
+0x054: 60ab                 | addq %r10, %r11
+0x056: 60ab                 | addq %r10, %r11
+0x058: 60bc                 | addq %r11, %r12
+0x05a: 60bc                 | addq %r11, %r12
+0x05c: 60cd                 | addq %r12, %r13
+0x05e: 60cd                 | addq %r12, %r13
+0x060: 60de                 | addq %r13, %r14
+0x062: 60de                 | addq %r13, %r14
+                            | 

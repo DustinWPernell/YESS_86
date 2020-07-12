@@ -1,0 +1,24 @@
+Log File
+9/18: Pair Programed with sam during lab. Wrote sudo code to help explain. finished everything aside from issues with last 2 checks for memory.
+9/21: Fixed one of the errors received in MemoryTester.C
+9/23: Fixed the last error received in MemoryTester.C
+9/26: Pair programed during lab
+10/5: Pair programed
+10/6: worked on getting the addresses to convert right
+10/7: got the values to write to mem right need to work on the converting
+10/7: Finished the lab
+10/10: Worked during Lab Started creating stage files
+10/18: Finished Creating Remaing stage files
+10/20: Worked on figuring out infinat loop
+10/21: Finished The Lab
+10/22: Switched Loader to use Strings instead of chars. This fixed the error checking not always passing
+10/24: Finished LAB!!
+10/29: Worked during lab was able to finish everything aside from CCs
+11/03: Finished LAB!!
+11/04: Added Power.ys
+11/05: Started Lab during Lab finished all but pushQ and memfor
+11/07: Worked during lab and finished LAB!!
+11/11: Finished absVal.ys
+11/14: Worked during lab
+11/18: 61 of 63 tests passing
+11/18: Finished passing all tests

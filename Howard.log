@@ -1,0 +1,68 @@
+Lab5:
+    9/17: pushed Tools.C & Tools.h
+    9/17: Edited and pushed makefile
+    9/17: In RegisterFile.C: wrote and completed constructor
+        and getInstance().
+    9/19: Dustin and I equal amount of effort into the remainder
+        of this file, with me writing and pushing the code.
+    9/19: ConditionCodes.C: I wrote the code and pushed the code,
+        Dustin and I put equal amount of effort on all the methods
+        in this file as they were fairly easy.
+        Dustin was proficient at debugging.
+    9/19: Memory.C: I wrote and pushed all code. I primarily wrote 
+        the constructor and getInstance, Dustin really figured out
+        all the rest of the methods of this file. Dustin also was
+        able to Debug all our files, esspecially this one. I mostly
+        typed the commands did what he told me to do as far as 
+        debugging and writing the tougher methods.
+    9/23: When we last left off, we were failing the Memory.C tests
+        somewhere around the doLongErrorTests(). Dustin was able 
+        to fix two of our methods from Memory.C completely on his
+        own.  
+
+Lab6:
+    9/26: Pair programed during lab with me writing and debugging 
+        the code and pushing on my username. Dustin came up with most
+        of the algorithms and methods.
+    10/5: Worked with Dustin in person on converting char array to 
+        String in order to pass in stoul function. Worked on general error
+        testing and debugging after that.
+    10/7: Worked with Dustin in person on finishing the lab. Error
+        testing and debugging, Dustin found solutions for all the 
+        errors were needing to handle.
+        
+Lab7: 
+    10/10: Worked in lab with Dustin the full time. edited makefile, 
+        copied over files from Tests, and worked on F.C - W.C and 
+        FetchStage.C - WritebackStage.C. Worked mostly on setting up 
+        these files and doClockLow().
+    10/19: Dustin and I met in person to work on FetchStage.C and to
+        try to figure out the errors we were getting. Worked on 
+        doClockLow() again for FetchStage.C
+    10/20: Met in person to continue work on FetchStage.C to try to 
+        get icode properly working. Our way of changing icode is not
+        registering.
+    10/21: Met in person and changed/fixed our FetchStage.C doClockLow()
+        and found our icode problem. We actually were not getting any
+        right values changed for stat-valC and were able to fix the 
+        problem by adding more calls to normal() from M.C to change
+        the values.
+    
+Lab8: 
+    10/22: Worked in lab individually, I started on lab 8 writing more 
+        to FetchStage and writing the new methods for DecodeStage. Dustin
+        worked on solving an old problem we've been having since lab 6.
+        Worked on more after lab trying to finish the parameters for new
+        DecodeStage methods.
+        
+Lab9: 
+    10/28: Worked in lab coding new methods and changing existing methods
+        to DecodeStage.
+    11/4: Typed the code for the powers.yo file and tested it with
+        existing code.
+
+Lab10: 
+    11/5: Wrote the HCL for DecodeStage and MemoryStage. I got stuck on
+        mem_read and mem_write.
+    11/11: Wrote the logic and figured out the absVal assembly code,
+        Dustin typed the code and then figured out how to simplify it.

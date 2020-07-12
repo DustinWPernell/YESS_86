@@ -1,0 +1,46 @@
+0x000:                      |           .pos 0
+0x000: 30f40004000000000000 | main:     irmovq stack, %rsp
+                            |           #initialize %rdi to the number of
+                            |           #fibonacci numbers to compute
+0x00a: 30f71400000000000000 |           irmovq $20, %rdi
+                            |           #initialize %rsi to the address
+                            |           #of where to store the numbers
+0x014: 30f6a000000000000000 |           irmovq fibolst, %rsi
+0x01e: 802800000000000000   |           call fibo
+0x027: 00                   |           halt
+                            | # fibo 
+                            | # Computes fibonacci numbers
+                            | # param: %rdi - contains a count of the 
+                            | #        number of fibonacci numbers to 
+                            | #        compute
+                            | # param: %rsi - contains the starting 
+                            | #        address in memory of where to
+                            | #        store the numbers
+                            | #
+0x028:                      | fibo:     #put your code here  
+0x028: 30fd0800000000000000 |           irmovq $8, %r13
+0x032: 30fe0200000000000000 |           irmovq $2, %r14
+                            |           
+0x03c: 6311                 |           xorq %rcx, %rcx
+0x03e: 40160000000000000000 |           rmmovq %rcx, 0(%rsi)
+                            |           
+0x048: 30f10100000000000000 |           irmovq $1, %rcx
+0x052: 40160800000000000000 |           rmmovq %rcx, 8(%rsi)
+0x05c: 61e7                 |           subq %r14, %rdi
+                            |           
+0x05e: 30fe0100000000000000 |           irmovq $1, %r14
+0x068:                      | flStart:
+0x068: 719e00000000000000   |           jle flEnd
+0x071: 50160000000000000000 |           mrmovq 0(%rsi), %rcx
+0x07b: 50360800000000000000 |           mrmovq 8(%rsi), %rbx
+0x085: 6013                 |           addq %rcx, %rbx
+0x087: 40361000000000000000 |           rmmovq %rbx, 16(%rsi)
+0x091: 60d6                 |           addq %r13, %rsi
+0x093: 61e7                 |           subq %r14, %rdi
+0x095: 706800000000000000   |           jmp flStart
+0x09e: 90                   | flEnd:    ret
+                            | 
+0x0a0:                      |           .align 8
+0x0a0: 0000000000000000     | fibolst:  .quad 0 
+0x400:                      |           .pos 0x400 
+0x400:                      | stack:    
