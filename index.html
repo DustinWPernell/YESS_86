@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<!https://dustinwpernell.github.io/Password_Manager/>
+<html>
+  	<head>
+    	<meta charset='utf-8'>
+    	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+    	<meta name="description" content="Password manager : Mobile app developed to manage passwords on both iPhones and Androids">
+
+    	<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/style.css">
+
+    	<title>Password manager</title>
+  	</head>
+
+	<body id="body" class="body text">
+		<div id="top" class="header">
+			Password Manager
+		</div></br>
+		<div class="divider">
+			Maintained by <a href="http://pernell-tech.com/Pages/About" class="altText">Dustin Pernell</a></Br></br>
+			=================================================================================================
+		</div></br></br>
+		<div class="subHeader">
+			The Application
+		</div></br>	
+		<div class="plainText">
+			Password Manager iPhone/Android app stores passwords and security questions for easy and protected access. This project was started 
+			<a href="http://pernell-tech.com/Pages/About" class="altText">Dustin Pernell</a> 
+			as a final project for an Android development class. Dustin then developed the iPhone version later as another project for school.
+		</div>
+		</br>
+		<div class="divider">
+			=================================================================================================
+		</div></br></br>
+		<div class="subHeader">
+			Content
+		</div>
+		<dl class="plainText">
+  			<dt><a class="altText" href="#FeaturesLoc">Features</a></dt>
+  			<dt><a class="altText" href="#AndroidInstallLoc">Installation - Android</a></dt>
+  			<dt><a class="altText" href="#IphoneInstallLoc">Installation - iPhone</a></dt>
+  			<dt><a class="altText" href="#UsageInstructLoc">Instructions</a></dt>
+  			<dt><a class="altText" href="#NotesLoc">Notes</a></dt>
+  			<dt><a class="altText" href="#FAQsLoc">FAQs</a></dt>
+  			<dt><a class="altText" href="#ContributingLoc">Contributing</a></dt>
+  			<dt><a class="altText" href="#SupportLoc">Support</a></dt>
+  			<dt><a class="altText" href="#LicensingLoc">Licensing</a></dt>
+
+		</dl>
+		<div class="divider">
+			=================================================================================================
+		</div></br></br>
+		<div id=FeaturesLoc class="subHeader">
+			Features
+		</div>
+		<dl class="plainText">
+  			<dt>Password database</dt>
+  				<dd>- Stores passwords in an encrypted local database.</dd></br>
+  			<dt>Security question database</dt>
+  				<dd>- Stores security questions in an encrypted local database.</dd></br>
+  			<dt>Biometric authentication</dt>
+				<dd>- Uses built in biometric authentication to access encrypted data.</dd>
+		</dl>
+		<div class="divider">
+			=================================================================================================
+		</div></br></br>
+		<div id="AndroidInstallLoc" class="subHeader">
+			Installation - Android
+		</div></br>
+		<dl class="plainText">
+			<dt>Source code:</dt>
+				<dd>
+					- Accessible on <a href="https://github.com/DustinWPernell/Password_Manager/tree/master/Android/PWMgr" class="altText">GitHub</a>
+				</dd>
+			</br>
+			<dt>Requirements</dt>
+				<dd>
+					- Android Studio - Android compiler
+				</dd>
+				<dd>
+					- Android Phone
+				</dd>
+		</dl>
+		<div class="divider">
+			=================================================================================================
+		</div></br></br>
+		<div id="IphoneInstallLoc" class="subHeader">
+			Installation - iPhone
+		</div></br>
+		<dl class="plainText">
+			<dt>Source code:</dt>
+				<dd>
+					- Accessible on <a href="https://github.com/DustinWPernell/Password_Manager/tree/master/iPhone" class="altText">GitHub</a>
+				</dd>
+			</br>
+			<dt>Requirements</dt>
+				<dd>
+					- Xcode - iPhone compiler
+				</dd>
+				<dd>
+					- iPhone
+				</dd>
+		</dl>
+		<div class="divider">
+			=================================================================================================
+		</div></br></br>
+		<div id="UsageInstructLoc" class="subHeader">
+			Instructions
+		</div></br>
+		<dl class="plainText">
+			<dt>Android</dt>
+				<dd>
+					<table>
+						<tr>
+							<td class="leftCell">
+								This software requires resources that are no longer available and can not be run.
+							</td>
+						</tr>
+					</table>
+				</dd>
+			</br>
+			<dt>iPhone</dt>
+				<dd>
+					<table>
+						<tr>
+							<td class="stepCell">
+								Step 1:</br>
+								Launching the App
+								</br></br>
+								<img class="image150" src="images/iPhone/MainScreen.png" alt="Main Screen">
+							</td>
+							<td class="leftCell">
+								The first thing you will see when launching the application is the main screen.</br>
+								You will need to select login.</br>
+								The next screen will cause the application to crash when entering a password.</br>
+								It is recommended to bypass this screen by modifying the Main.storyboard to start at the navigation controller labeled Title.
+								
+							</td>
+						</tr>
+						<tr class="tableDiv"></tr>
+						<tr>
+							<td class="stepCell">
+								Step 2:</br>
+								Add an Account
+								</br></br>
+								<img class="image150" src="images/iPhone/AcctList.png" alt="Account List">
+							</td>
+							<td class="leftCell">
+								Next you will add an account using the + button in the top right of the Account List view.</br>
+								The sample image shows an account label as "Google".</br>
+								
+							</td>
+						</tr>
+						<tr class="tableDiv"></tr>
+						<tr>
+							<td class="stepCell">
+								Step 3:</br>
+								Fill Out Account
+								</br></br>
+								<img class="image150" src="images/iPhone/AddAcct.png" alt="Add Account">
+							</td>
+							<td class="leftCell">
+								You will need to fill out the account information.</br>
+								
+							</td>
+						</tr>
+						<tr class="tableDiv"></tr>
+						<tr>
+							<td class="stepCell">
+								Step 4:</br>
+								Add Security Question
+								</br>
+								(Optional)
+								</br></br>
+								<img class="image150" src="images/iPhone/AddSecQuest.png" alt="Add Account">
+							</td>
+							<td class="leftCell">
+								Add security questions by selecting "View security Questions".</br>
+								Fill out the account information.</br>
+								
+							</td>
+						</tr>
+						<tr class="tableDiv"></tr>
+						<tr>
+							<td class="stepCell">
+								Step 5:</br>
+								View an Account
+							</td>
+							<td class="leftCell">
+								When selecting an account from the Account List you will see the details of that account.</br>
+								You can edit the account by clicking "Edit".</br>
+								<dl>
+									<dt>Selecting "View Security Questions" </dt>
+										<dd>This allows you to view the security questions associated with that account.</dd>
+									<dt>Selecting "View Account History"</dt>
+										<dd>This will show you the changes that have been made to that account.</dd>
+								<dl>
+								
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<img class="image300" src="images/iPhone/AcctDisplay.png" alt="Account Display">
+							</td>
+							</tr>
+					</table>
+				</dd>
+		</dl>
+		<div class="divider">
+			=================================================================================================
+		</div></br></br>
+		<div id="NotesLoc" class="subHeader">
+			Notes
+		</div>
+		<dl class="plainText">
+			<dt>This application has been removed from the iPhone and Android app stores due to being outdated.</dt>
+				<dd>
+					- The applications can still be run using the compilers to install the applications. 
+				</dd>
+			</br>
+			<dt>iPhone application bug</dt>
+				<dd>
+					- The iPhone application password protection does not currently work.</br>
+					- There are no plans to fix this as of July 2020.
+				</dd>
+			<dt>Android application</dt>
+				<dd>
+					- This software requires resources that are no longer available and can not be run.
+				</dd>
+		</dl>
+		<div class="divider">
+			=================================================================================================
+		</div></br></br>
+		<div id="FAQsLoc" class="subHeader">
+			FAQs
+		</div></br>
+		<dl class="plainText">
+			<dt>Does this application use encryption to save the passwords?</dt>
+				<dd>
+					- The Android application does use encryption. <br>
+					- The iPhone does not as it is not finished and that was the last feature designated to be implemented. 
+				</dd>
+			</br>
+			<dt>Will the applications be put onto either app store for android or iPhone/</dt>
+				<dd>
+					- As of July 2020, there are no plans to publish the applications to either app store.
+				</dd>
+		</dl>
+		<div class="divider">
+			=================================================================================================
+		</div></br></br>
+		<div id="ContributingLoc" class="subHeader">
+			Contributing
+		</div></br>
+		<div class="plainText">
+			<a href="http://pernell-tech.com/Pages/Contact" class="altText">Dustin Pernell</a> is the sole contributor for this project.
+		</div></br></br>
+		<div class="divider">
+			=================================================================================================
+		</div></br></br>
+		<div id="SupportLoc" class="subHeader">
+			Support
+		</div></br>
+		<div class="plainText">
+			<a href="http://pernell-tech.com/Pages/Contact" class="altText">Dustin Pernell</a> is the point of contact for support.
+		</div></br></br>
+		<div class="divider">
+			=================================================================================================
+		</div></br></br>
+		<div id="LicensingLoc" class="subHeader">
+			Licensing
+		</div></br>
+		<div class="license">
+			MIT License
+			</br>
+			</br>
+			Copyright (c) 2020 Dustin Pernell
+			</br>
+			</br>
+			Permission is hereby granted, free of charge, to any person obtaining a copy
+			of this software and associated documentation files (the "Software"), to deal
+			in the Software without restriction, including without limitation the rights
+			to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+			copies of the Software, and to permit persons to whom the Software is
+			furnished to do so, subject to the following conditions:
+			</br>
+			</br>
+			The above copyright notice and this permission notice shall be included in all
+			copies or substantial portions of the Software.
+			</br>
+			</br>
+			THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+			IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+			FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+			AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+			LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+			OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+			SOFTWARE.
+		</div>
+		<a id="topBtn" href="#top" class="topBtn altText">Back to Top</a></button>
+	</body>
+</html>
